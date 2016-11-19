@@ -1,0 +1,58 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+
+body *, .swiper-slide .content h2, .swiper-slide .button a {
+	font-family: "brandon-grotesque",sans-serif;
+}
+
+#post-area p {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+}
+
+.home .swiper-container h2 {
+    font-size: 62px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.home .swiper-container p {
+	font-size: 36px;
+	font-style: italic;
+}
+
+.single-portfolio .four_gallery .portfolio-items .one-fourths {
+    margin: 0 !important;
+    width: 25%;
+}
+
+.single-portfolio .four_gallery .portfolio-items .work-item {
+    overflow: hidden;
+    height: 15vw;
+    margin: 0;
+    min-height: 152px;
+}
+
+.single-portfolio .four_gallery .portfolio-items .work-item img {
+    width: 100%;
+}
+/*
+#header-outer {
+    background-image: url(assets/img/wood_bg.png);
+    background-size: auto 130px;
+    background-repeat: repeat-x;
+    background-position: right -40px;
+}
+
+#header-outer, #header-space {
+position: absolute !important;
+}*/
+
